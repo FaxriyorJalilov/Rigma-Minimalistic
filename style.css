@@ -1,0 +1,575 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 70px;
+}
+nav {
+  margin-top: 33px;
+  margin-bottom: 143px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_ellipce {
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background-color: #d0d0d0;
+}
+.nav_logo {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+.nav_logo a {
+  color: #285e67;
+  font-family: "Poppins", sans-serif;
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.nav_links {
+  display: flex;
+  column-gap: 40px;
+}
+.nav_links a {
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.nav_links a:hover {
+  transform: scale(1.1);
+  color: #370ada;
+}
+.nav_btm_text {
+  text-align: center;
+}
+.nav_btm_text h1 {
+  color: #2a2a2a;
+  font-family: "Poppins", sans-serif;
+  font-size: 65.34px;
+  font-weight: 600;
+  line-height: 82px;
+  margin-bottom: 12px;
+}
+.nav_btm_text p {
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 33px;
+}
+.nav_btm_text button {
+  border-radius: 67px;
+  background: #285e67;
+  border: none;
+  margin-bottom: 56px;
+  width: 251px;
+  padding: 16px;
+}
+.nav_btm_text button:hover {
+  background: linear-gradient(
+    to right,
+    #db62bd 15%,
+    rgb(58, 57, 57) 30%,
+    #5363f2 45%,
+    #ca3713
+  );
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.nav_btm_text button a {
+  color: #fff;
+
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.nav_btm_text button a:hover {
+  color: red;
+  font-family: "Dancing Script", cursive;
+}
+.nav_fotos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 28px;
+  margin-bottom: 80px;
+}
+.nav_foto_left {
+  max-width: 626px;
+  height: 390px;
+  border-radius: 16px;
+  background: url(./photos/jared-rice-xce530fBHrk-unsplash\ 1.jpg),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+}
+.nav_foto_right {
+  max-width: 626px;
+  height: 390px;
+  background: #fff;
+  border-radius: 16px;
+  background: url(./photos/katherine-hanlon-mod2s3-qFOc-unsplash\ 1.jpg),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+}
+.willbeing {
+  border-radius: 12px;
+  background: #f4f4f4;
+  display: flex;
+  padding: 50px 112px 0px 112px;
+  gap: 5px;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.willbeing_left h2 {
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  font-size: 50.52px;
+  font-weight: 600;
+  line-height: 62px;
+  /* margin-top: 48px; */
+}
+.victor_victor {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 61px;
+}
+.victor_victor p {
+  max-width: 260px;
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.vector {
+  width: 58px;
+  height: 57px;
+  border-radius: 9px;
+  background: #285e67;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+}
+.willbeing_right img {
+  background-image: url(./photos/Group.png);
+  width: 291px;
+  height: 294px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.fresh {
+  display: flex;
+  column-gap: 53px;
+  align-items: center;
+}
+.produce {
+  display: flex;
+  align-items: center;
+  column-gap: 23px;
+}
+.fresh_left {
+  width: 100%;
+  height: 578px;
+  background-image: url("./photos/Group\ 12.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+}
+.fresh_right h2 {
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  font-size: 50.52px;
+  font-weight: 600;
+  line-height: 62px;
+}
+.fresh_right h2 + p {
+  margin-bottom: 50px;
+}
+.fresh_right p {
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.produce {
+  margin-bottom: 50px;
+}
+.Teom {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.eat {
+  display: flex;
+  padding: 56px 110px 56px 114px;
+  column-gap: 150px;
+  border-radius: 12px;
+  background: #f4f4f4;
+}
+.vector_eat {
+  background: #ebbfae;
+}
+.eat_right_btm {
+  display: flex;
+  column-gap: 69px;
+}
+.eat_right h3 {
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  font-size: 50.52px;
+  font-weight: 600;
+  /* line-height: 30px; */
+  margin-top: 48px;
+  margin-bottom: 41px;
+}
+.Contoct {
+}
+.lastovich {
+  width: 100%;
+  height: 667px;
+  border-radius: 12px;
+  background: url(./photos/tyler-lastovich.png),
+    lightgray 0.532px -176.061px / 99.918% 126.396% no-repeat;
+}
+.lastovich_text,
+.lastovich_text > div {
+  text-align: center;
+}
+.last_vector img {
+  margin-top: 110.47px;
+  margin-bottom: 45px;
+}
+.lastovich_text h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 37.9px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+.lastovich_text p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 28px;
+}
+.lastovich_text button {
+  border-radius: 67px;
+  border: 2px solid #fff;
+  background: transparent;
+  width: 251px;
+  padding: 16px;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 21.33px;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+  margin-bottom: 48.47px;
+}
+.lastovich_text button:hover {
+  font-family: "Dancing Script", cursive;
+  color: #ca3713;
+  transform: scale(1.1);
+  background: #370ada;
+}
+.plant {
+  border-radius: 12px;
+  background: #fce2d7;
+  padding: 119px 66px;
+  max-width: 85%;
+
+  margin-left: 7.2%;
+}
+.plant_icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 17px;
+}
+.plant_icon {
+  text-align: center;
+  max-width: 245.5px;
+}
+.plant_ellipse {
+  width: 82px;
+  height: 82px;
+  border-radius: 100%;
+  border: 2px solid #000;
+  padding: 12px;
+
+  margin: 0 auto;
+}
+.plant_icon p {
+  color: #2b2b2b;
+  margin-top: 11px;
+  font-size: 21.33px;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer {
+  margin-top: 283px;
+  background: #285e67;
+  padding: 78px 139px;
+}
+footer .navbar a {
+  color: #fff;
+}
+.footer_logos {
+  margin-top: 37px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+#check,
+label {
+  display: none;
+}
+
+/* ----RESPONSIVE--- */
+
+@media (max-width: 1024px) {
+  .container {
+    margin: 0 auto;
+    max-width: 884px;
+    padding: 0px 10px;
+  }
+  .willbeing_right {
+    display: none;
+  }
+  .willbeing {
+    padding: 64px 112px;
+  }
+  .willbeing_left {
+    text-align: center;
+  }
+  .vector {
+    margin: 0 auto;
+  }
+  .eat_left {
+    display: none;
+  }
+  .eat_right {
+    text-align: center;
+  }
+  eat_right h3 {
+    line-height: ;
+  }
+  .plant_icons {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 49px;
+  }
+  .plant {
+    max-width: 85%;
+    padding: 71px 68px;
+    margin-left: 7%;
+  }
+  footer {
+    margin-top: 420px;
+  }
+  footer .navbar {
+    display: block;
+  }
+  footer .nav_logo {
+    margin-bottom: 36px;
+  }
+}
+/* ----phone responsive--- */
+
+@media (max-width: 430px) {
+  .container {
+    margin: 0 auto;
+    max-width: 360px;
+    padding: 0px 10px;
+  }
+  .nav_none a {
+    display: none;
+    /* position: relative; */
+  }
+  label {
+    display: block;
+  }
+  /* .nav_none a {
+    font-size: 20px;
+    color: rgb(8, 8, 70);
+    font-weight: 600;
+  } */
+   {
+    /* display: none; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    position: fixed;
+    /* z-index: 5; */
+    top: 30px;
+    right: 15px;
+    /* right: 100%; */
+    row-gap: 15px;
+    background-color: rgb(239, 239, 241);
+    opacity: 0.4;
+    border-radius: 10%;
+    padding: 30px 20px;
+    transition: 0.5s;
+  }
+  nav label i {
+    display: block;
+    font-size: 30px;
+  }
+  #check {
+    display: none;
+  }
+  label #cancel {
+    color: white;
+  }
+  label #btn {
+    z-index: 200;
+  }
+  label #btn,
+  label #cancel {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  label #btn:hover,
+  label #cancel:hover {
+    cursor: pointer;
+    color: blue;
+  }
+  /* #check:checked  {
+    right: 15px;
+  } */
+  #check:checked ~ label #btn {
+    display: none;
+  }
+  #check:checked ~ label #cancel {
+    display: block;
+    z-index: 101;
+    color: #ca3713;
+  }
+
+  .nav_btm_text h1 {
+    font-size: 37.9px;
+    line-height: 47px;
+  }
+  .nav_btm_text button {
+    width: 211px;
+  }
+  .nav_fotos {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 28px;
+    margin-bottom: 36px;
+  }
+  .willbeing {
+    padding: 64px 42px;
+  }
+  .willbeing_left {
+    padding: 0px;
+  }
+  .willbeing_left h2 {
+    font-size: 39.7px;
+    line-height: 53px;
+    margin-bottom: 40px;
+  }
+  .victor_victor {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 26px;
+    padding-top: 36px;
+  }
+  .fresh {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+  }
+  .fresh_right h2 {
+    text-align: center;
+    font-size: 39.7px;
+    line-height: 49px;
+  }
+  .fresh_right h2 + p {
+    margin-bottom: 26px;
+  }
+  .Teom {
+    margin-bottom: 36px;
+  }
+  .eat {
+    padding: 35px;
+  }
+  .eat_right_btm {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 41px;
+  }
+  .eat_right h3 {
+    text-align: center;
+    font-size: 39.7px;
+    line-height: 47px;
+    margin-bottom: 35px;
+  }
+  .lastovich {
+    width: 100%;
+    height: 354px;
+  }
+  .lastovich_text h3 {
+    font-size: 21.33px;
+    line-height: 31px;
+    max-width: 236px;
+    margin: 0 auto;
+    margin-bottom: 13px;
+  }
+  .lastovich_text p {
+    display: none;
+  }
+  .lastovich_text button {
+    width: 198px;
+    margin-bottom: 23px;
+  }
+  .last_vector img {
+    width: 46.558px;
+    height: 41.474px;
+
+    margin-top: 71.76px;
+    margin-bottom: 13px;
+  }
+  .plant {
+    max-width: 85%;
+    padding: 71px 68px;
+    margin-left: 8%;
+  }
+  .plant_icons {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 49px;
+  }
+  footer {
+    margin-top: 620px;
+    padding: 78px 110px;
+  }
+  .footer_nav_links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 36px;
+  }
+}
