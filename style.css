@@ -41,7 +41,8 @@ nav {
   font-weight: 600;
   line-height: 24px;
 }
-.nav_links {
+.nav_links,
+.navbar_links {
   display: flex;
   column-gap: 40px;
 }
@@ -406,27 +407,27 @@ label {
     max-width: 360px;
     padding: 0px 10px;
   }
-  .nav_none a {
+  .navbar_links {
     display: none;
     /* position: relative; */
   }
   label {
     display: block;
   }
-  /* .nav_none a {
+  .nav_none a {
     font-size: 20px;
     color: rgb(8, 8, 70);
     font-weight: 600;
-  } */
-   {
+  }
+  .navbar_links {
     /* display: none; */
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     position: fixed;
     /* z-index: 5; */
     top: 30px;
-    right: 15px;
-    /* right: 100%; */
+    /* right: 15px; */
+    right: 100%;
     row-gap: 15px;
     background-color: rgb(239, 239, 241);
     opacity: 0.4;
@@ -458,9 +459,9 @@ label {
     cursor: pointer;
     color: blue;
   }
-  /* #check:checked  {
+  #check:checked + label + .navbar_links {
     right: 15px;
-  } */
+  }
   #check:checked ~ label #btn {
     display: none;
   }
